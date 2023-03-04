@@ -4,4 +4,3 @@ This is an app to keep track of a work day schedule. It has the current date and
 
 
 
-! [image](https://user-images.githubusercontent.com/121248438/222903468-9694f510-ec38-43db-b3b8-e79f68a3d0ae.png)
