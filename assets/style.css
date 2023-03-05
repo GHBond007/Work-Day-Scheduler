@@ -1,9 +1,13 @@
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 16px;
+  
 }
 
+.container {
+size: 100%;
+}
 textarea {
   background: transparent;
   border: none;
@@ -14,29 +18,31 @@ textarea {
   width: 920px;
 }
 
+.time-block{
+  text-align: center;
+  border-radius: 10px;
+}
 .description {
   white-space: pre-wrap;
 }
 
 .input-group-text {
   border: none;
-  text-align: center;
-  color: #000000;
+  margin: 1px;
+  
 
 }
 
 .text-line {
   border: none;
-  text-align:left;
-  color: #000000;
+  margin: 1px;
   
-
-
 }
 
-.row {
+#row {
   border-top: 1px solid white;
   height: 80px;
+  white-space: pre-wrap;
 }
 
 .hour {
@@ -44,6 +50,8 @@ textarea {
   color: #000000;
   border-top: 1px dashed #000000;
   width:100px;
+  text-align: center;
+  padding: 20px;
 }
 
 .past {
