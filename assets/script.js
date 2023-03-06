@@ -47,7 +47,7 @@ function setBackground () {
       hour = moment().hours();
 
       // Loop through each time block
-  $(".text-line").each(function () {
+  $(".form-control").each(function () {
     // Get the hour for this time block by parsing the ID attribute
     var timeBlockHour = parseInt($(this).attr("id"));
   
@@ -70,7 +70,7 @@ $(document).ready(function(){
   // This function saves the user's input to local storage when the corresponding save button is clicked
   $(".saveBtn").on("click", function(){
     // Get the user's input and the corresponding hour for this time block
-    userInput = $(this).siblings(".text-line").val().trim();
+    userInput = $(this).siblings(".form-control").val().trim();
     console.log(userInput);
     hourSpan = $(this).siblings(".input-group-prepend").text().trim();
     console.log(hourSpan)
